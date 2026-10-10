@@ -6,6 +6,9 @@ It needs a change on **both** sides, and the two must match exactly.
 > **Status: built, statically verified, and smoke-tested in a live client on a sandbox server (section 6).**
 > Still test on a separate server/database before rolling out to live players (section 4).
 
+> **Server owner? Start with the [Server Owner Rollout Guide (GUIDE.md)](GUIDE.md).** It covers what to change, the
+> cutover steps, the rollback, and what was tested, in the order you would do it.
+
 > **This repository contains no EverQuest client files.** To get a 1440-slot client you patch your own `eqgame.exe`
 > with the patcher in `tools/patcher/` (section 1). For server owners there are one-click backup, install and
 > rollback scripts in `rollout/`.

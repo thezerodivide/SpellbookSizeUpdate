@@ -1,5 +1,7 @@
 # Spellbook 1440: one-click backup, install and rollback
 
+See also the [Server Owner Rollout Guide](../GUIDE.md) for the whole picture.
+
 Three scripts that do the work of the manual guide, for **Windows** (`rollout\windows`) and **Linux** (`rollout/linux`).
 Use whichever set matches the machine the server runs on. Each does one job:
 
