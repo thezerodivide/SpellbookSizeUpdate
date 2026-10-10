@@ -156,3 +156,16 @@ labels (run it once per skin you use). The skin file is not part of this repo; t
 * The `export` folder must exist before `export_client_files.exe` is run.
 * The login server's `login.json` `security.mode` must be **14** (scrypt). The CLI password tool and the shipped accounts use scrypt; a different mode makes every login fail.
 * Order: `world.exe database:updates --skip-backup`, then `shared_memory.exe`, then loginserver, world, `eqlaunch.exe zone`.
+
+## 7. Licensing
+
+This repository mirrors the licensing of the NMS release it was built against:
+
+| Folder | License | Why |
+|---|---|---|
+| `server/` | GNU GPL v3 (`server/LICENSE`) | Modified files from the EQEmu-derived server. |
+| `client-dll/` | MIT, original notice kept (`client-dll/LICENSE`) | Edited copies of files from the NMS client add-on. |
+| everything else (`tools/`, `rollout/`, `client/`, `evidence/`, this README) | MIT (`LICENSE`) | Original work for this change. |
+
+EverQuest is a registered trademark of Daybreak Game Company. This project is not affiliated with or endorsed by
+Daybreak, and contains no EverQuest client files: you patch your own copy with the patcher in `tools/patcher/`.
