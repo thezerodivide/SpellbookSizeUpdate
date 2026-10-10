@@ -1,0 +1,6 @@
+
+# Per-server settings files contain database passwords. Only the EXAMPLE files are committed.
+rollout/windows/settings-*.ps1
+!rollout/windows/settings-EXAMPLE.ps1
+rollout/linux/settings-*.conf
+!rollout/linux/settings-EXAMPLE.conf

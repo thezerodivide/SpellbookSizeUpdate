@@ -1,0 +1,121 @@
+Spellbook 720 -> 1440 client patch: every in-place byte change (VA = address in eqgame.exe, RoF2 build md5 240c80800112ada825c146d7349ce85b)
+
+  449cf2  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)
+  449cfb  399cb020250000  ->  399cb050990000   spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [eax + esi*4 + 0x2520], ebx
+  449d05  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)
+  449d42  0520250000  ->  0550990000   spellbook base 0x2520 -> tail 0x9950: add eax, 0x2520
+  449d47  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)
+  449d56  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)
+  4605dc  81f9d0020000  ->  81f9a0050000   slot bound 720 -> 1440: cmp ecx, 0x2d0 (fn 4605d0)
+  4605e5  8b848820250000  ->  8b848850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ecx*4 + 0x2520]
+  4bea0b  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 4be9d0)
+  4bea14  89bcb020250000  ->  89bcb050990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], edi
+  4bea1c  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 4be9d0)
+  578fe9  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 5789b0)
+  578ff2  89bcb020250000  ->  89bcb050990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], edi
+  578ffa  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 5789b0)
+  648229  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)
+  648232  8bac9820250000  ->  8bac9850990000   spellbook base 0x2520 -> tail 0x9950: mov ebp, dword ptr [eax + ebx*4 + 0x2520]
+  648261  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)
+  64826a  8b849820250000  ->  8b849850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]
+  6482e7  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)
+  75b885  81ffcf020000  ->  81ff9f050000   slot bound 719 -> 1439: cmp edi, 0x2cf (fn 75b880)
+  75bc37  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bc00)
+  75bc40  39bcb020250000  ->  39bcb050990000   spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [eax + esi*4 + 0x2520], edi
+  75bc4a  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bc00)
+  75bd9f  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)
+  75bda8  8b84b820250000  ->  8b84b850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]
+  75bdfe  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)
+  75be07  3bacb820250000  ->  3bacb850990000   spellbook base 0x2520 -> tail 0x9950: cmp ebp, dword ptr [eax + edi*4 + 0x2520]
+  75be4e  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)
+  75be57  8b84b820250000  ->  8b84b850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]
+  75bfb7  0520250000  ->  0550990000   spellbook base 0x2520 -> tail 0x9950: add eax, 0x2520
+  75bfbc  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)
+  75c03c  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)
+  75c045  3b9cb020250000  ->  3b9cb050990000   spellbook base 0x2520 -> tail 0x9950: cmp ebx, dword ptr [eax + esi*4 + 0x2520]
+  75c06f  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)
+  75c078  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c0ef  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)
+  75c0f8  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c29e  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c290)
+  75c2d7  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c290)
+  75c2e0  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c449  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)
+  75c46c  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)
+  75c475  8b849820250000  ->  8b849850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]
+  75c4a4  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)
+  75c4ad  8b849820250000  ->  8b849850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]
+  75c631  81fecf020000  ->  81fe9f050000   slot bound 719 -> 1439: cmp esi, 0x2cf (fn 75c620)
+  75c654  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c620)
+  75c65d  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c68c  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c620)
+  75c695  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c773  81ffcf020000  ->  81ff9f050000   slot bound 719 -> 1439: cmp edi, 0x2cf (fn 75c760)
+  75c792  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75c760)
+  75c79d  c784b820250000ffffffff  ->  c784b850990000ffffffff   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], 0xffffffff
+  75c887  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)
+  75c890  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c8bb  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)
+  75c8c4  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75c90e  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)
+  75cf52  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 75ceb0)
+  75d0aa  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)
+  75d0b3  8b84b820250000  ->  8b84b850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]
+  75d0e2  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)
+  75d0eb  8b84b820250000  ->  8b84b850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]
+  75d180  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)
+  75d189  3b9cb820250000  ->  3b9cb850990000   spellbook base 0x2520 -> tail 0x9950: cmp ebx, dword ptr [eax + edi*4 + 0x2520]
+  75d267  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)
+  75d272  3b8cb820250000  ->  3b8cb850990000   spellbook base 0x2520 -> tail 0x9950: cmp ecx, dword ptr [eax + edi*4 + 0x2520]
+  75d2d3  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)
+  75d2e8  89acb820250000  ->  89acb850990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], ebp
+  75d3b6  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d380)
+  75d3c6  8bacb020250000  ->  8bacb050990000   spellbook base 0x2520 -> tail 0x9950: mov ebp, dword ptr [eax + esi*4 + 0x2520]
+  75d402  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d380)
+  75d40c  8b9cb820250000  ->  8b9cb850990000   spellbook base 0x2520 -> tail 0x9950: mov ebx, dword ptr [eax + edi*4 + 0x2520]
+  75d42a  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d380)
+  75d433  899cb020250000  ->  899cb050990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], ebx
+  75d452  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d380)
+  75d45f  89acb820250000  ->  89acb850990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], ebp
+  75d4aa  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)
+  75d4ef  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)
+  75d4f8  8b84b020250000  ->  8b84b050990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]
+  75d533  81fed0020000  ->  81fea0050000   slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)
+  75d546  8b94b020250000  ->  8b94b050990000   spellbook base 0x2520 -> tail 0x9950: mov edx, dword ptr [eax + esi*4 + 0x2520]
+  75e2ca  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75ddf0)
+  7d42ab  8b84b820250000  ->  8b84b850990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]
+  7eb420  3dcf020000  ->  3d9f050000   slot bound 719 -> 1439: cmp eax, 0x2cf (fn 7eac20)
+  7eb427  8b8f5c300000  ->  8b8fccaf0000   last spellbook slot: mov ecx, dword ptr [edi + 0x305c]
+  7eb445  8b948f20250000  ->  8b948f50990000   spellbook base 0x2520 -> tail 0x9950: mov edx, dword ptr [edi + ecx*4 + 0x2520]
+  7eb477  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7eac20)
+  7ed6c3  8984be20250000  ->  8984be50990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + edi*4 + 0x2520], eax
+  7ed6cc  c784be2025000000000000  ->  c784be5099000000000000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + edi*4 + 0x2520], 0
+  7ed6d8  81ffd0020000  ->  81ffa0050000   slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 7ebb70)
+  7ed6e2  b9d0020000  ->  b9a0050000   slot bound 720 -> 1440: mov ecx, 0x2d0 (fn 7ebb70)
+  7ed6e9  8dbe20250000  ->  8dbe50990000   spellbook base 0x2520 -> tail 0x9950: lea edi, [esi + 0x2520]
+  7ed6f3  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)
+  7ed6fb  83bc862025000000  ->  83bc865099000000   spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [esi + eax*4 + 0x2520], 0
+  7ed705  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)
+  7ed70d  c7848620250000ffffffff  ->  c7848650990000ffffffff   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + eax*4 + 0x2520], 0xffffffff
+  7ed719  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)
+  7edae7  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7edaa0)
+  7edaff  898c8720250000  ->  898c8750990000   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [edi + eax*4 + 0x2520], ecx
+  7edb0a  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7edaa0)
+  7ee79f  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ee560)
+  7ee7a7  c7848620250000ffffffff  ->  c7848650990000ffffffff   spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + eax*4 + 0x2520], 0xffffffff
+  7ee7b3  3dd0020000  ->  3da0050000   slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ee560)
+  7ee8c4  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 7ee880)
+  7ee8cd  8b849f20250000  ->  8b849f50990000   spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [edi + ebx*4 + 0x2520]
+  7ee8e5  81fbd0020000  ->  81fba0050000   slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 7ee880)
+  7ef4ad  8db020250000  ->  8db050990000   spellbook base 0x2520 -> tail 0x9950: lea esi, [eax + 0x2520]
+  7ef4b3  8d8b20250000  ->  8d8b50990000   spellbook base 0x2520 -> tail 0x9950: lea ecx, [ebx + 0x2520]
+  7ef4bd  81fad0020000  ->  81faa0050000   slot bound 720 -> 1440: cmp edx, 0x2d0 (fn 7ef330)
+  7ef4cf  81fad0020000  ->  81faa0050000   slot bound 720 -> 1440: cmp edx, 0x2d0 (fn 7ef330)
+  7bec13  6850990000  ->  68d0af0000   allocate 0xafd0 bytes (was 0x9950) so the 1440-slot spellbook fits after the object
+  7cd1e5  6850990000  ->  68d0af0000   allocate 0xafd0 bytes (was 0x9950) so the 1440-slot spellbook fits after the object
+  460876  6888340000  ->  68d0af0000   allocate 0xafd0 bytes (was 0x3488) so the 1440-slot spellbook fits after the object
+  75d599  83f8587e158bcec7862c02000058000000e891edffff5ec20400  ->  3db20000007e13b8b2000000eb0c909090909090909090909090   page limit: left page max 0x58 (90 pages) -> 0xB2 (180 pages)
+
+  57cbd1  (19 bytes)  profile spellbook read replaced by call to new-section cave_B (reads up to 1440 entries into a staging array)
+  578fd6  (7 bytes)   profile->character copy replaced by jmp to cave_copy (slots >= 720 come from the staging array)
+  PE: new section .sbook (rva 0x12c3000, 0x2000 bytes: code at +0, staging array at +0x200), 6 absolute fixups appended to .reloc, SizeOfImage +0x2000, checksum recomputed

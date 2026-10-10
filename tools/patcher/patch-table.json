@@ -1,0 +1,692 @@
+[
+ {
+  "va": "449cf2",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)"
+ },
+ {
+  "va": "449cfb",
+  "expect": "399cb020250000",
+  "replace": "399cb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [eax + esi*4 + 0x2520], ebx"
+ },
+ {
+  "va": "449d05",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)"
+ },
+ {
+  "va": "449d42",
+  "expect": "0520250000",
+  "replace": "0550990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: add eax, 0x2520"
+ },
+ {
+  "va": "449d47",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)"
+ },
+ {
+  "va": "449d56",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 449cd0)"
+ },
+ {
+  "va": "4605dc",
+  "expect": "81f9d0020000",
+  "replace": "81f9a0050000",
+  "why": "slot bound 720 -> 1440: cmp ecx, 0x2d0 (fn 4605d0)"
+ },
+ {
+  "va": "4605e5",
+  "expect": "8b848820250000",
+  "replace": "8b848850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ecx*4 + 0x2520]"
+ },
+ {
+  "va": "4bea0b",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 4be9d0)"
+ },
+ {
+  "va": "4bea14",
+  "expect": "89bcb020250000",
+  "replace": "89bcb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], edi"
+ },
+ {
+  "va": "4bea1c",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 4be9d0)"
+ },
+ {
+  "va": "578fe9",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 5789b0)"
+ },
+ {
+  "va": "578ff2",
+  "expect": "89bcb020250000",
+  "replace": "89bcb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], edi"
+ },
+ {
+  "va": "578ffa",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 5789b0)"
+ },
+ {
+  "va": "648229",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)"
+ },
+ {
+  "va": "648232",
+  "expect": "8bac9820250000",
+  "replace": "8bac9850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov ebp, dword ptr [eax + ebx*4 + 0x2520]"
+ },
+ {
+  "va": "648261",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)"
+ },
+ {
+  "va": "64826a",
+  "expect": "8b849820250000",
+  "replace": "8b849850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]"
+ },
+ {
+  "va": "6482e7",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 648200)"
+ },
+ {
+  "va": "75b885",
+  "expect": "81ffcf020000",
+  "replace": "81ff9f050000",
+  "why": "slot bound 719 -> 1439: cmp edi, 0x2cf (fn 75b880)"
+ },
+ {
+  "va": "75bc37",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bc00)"
+ },
+ {
+  "va": "75bc40",
+  "expect": "39bcb020250000",
+  "replace": "39bcb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [eax + esi*4 + 0x2520], edi"
+ },
+ {
+  "va": "75bc4a",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bc00)"
+ },
+ {
+  "va": "75bd9f",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)"
+ },
+ {
+  "va": "75bda8",
+  "expect": "8b84b820250000",
+  "replace": "8b84b850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75bdfe",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)"
+ },
+ {
+  "va": "75be07",
+  "expect": "3bacb820250000",
+  "replace": "3bacb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp ebp, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75be4e",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75bd40)"
+ },
+ {
+  "va": "75be57",
+  "expect": "8b84b820250000",
+  "replace": "8b84b850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75bfb7",
+  "expect": "0520250000",
+  "replace": "0550990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: add eax, 0x2520"
+ },
+ {
+  "va": "75bfbc",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)"
+ },
+ {
+  "va": "75c03c",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)"
+ },
+ {
+  "va": "75c045",
+  "expect": "3b9cb020250000",
+  "replace": "3b9cb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp ebx, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c06f",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)"
+ },
+ {
+  "va": "75c078",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c0ef",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75bf30)"
+ },
+ {
+  "va": "75c0f8",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c29e",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c290)"
+ },
+ {
+  "va": "75c2d7",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c290)"
+ },
+ {
+  "va": "75c2e0",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c449",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)"
+ },
+ {
+  "va": "75c46c",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)"
+ },
+ {
+  "va": "75c475",
+  "expect": "8b849820250000",
+  "replace": "8b849850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]"
+ },
+ {
+  "va": "75c4a4",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75c340)"
+ },
+ {
+  "va": "75c4ad",
+  "expect": "8b849820250000",
+  "replace": "8b849850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + ebx*4 + 0x2520]"
+ },
+ {
+  "va": "75c631",
+  "expect": "81fecf020000",
+  "replace": "81fe9f050000",
+  "why": "slot bound 719 -> 1439: cmp esi, 0x2cf (fn 75c620)"
+ },
+ {
+  "va": "75c654",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c620)"
+ },
+ {
+  "va": "75c65d",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c68c",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c620)"
+ },
+ {
+  "va": "75c695",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c773",
+  "expect": "81ffcf020000",
+  "replace": "81ff9f050000",
+  "why": "slot bound 719 -> 1439: cmp edi, 0x2cf (fn 75c760)"
+ },
+ {
+  "va": "75c792",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75c760)"
+ },
+ {
+  "va": "75c79d",
+  "expect": "c784b820250000ffffffff",
+  "replace": "c784b850990000ffffffff",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], 0xffffffff"
+ },
+ {
+  "va": "75c887",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)"
+ },
+ {
+  "va": "75c890",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c8bb",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)"
+ },
+ {
+  "va": "75c8c4",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75c90e",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75c820)"
+ },
+ {
+  "va": "75cf52",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 75ceb0)"
+ },
+ {
+  "va": "75d0aa",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)"
+ },
+ {
+  "va": "75d0b3",
+  "expect": "8b84b820250000",
+  "replace": "8b84b850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75d0e2",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)"
+ },
+ {
+  "va": "75d0eb",
+  "expect": "8b84b820250000",
+  "replace": "8b84b850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75d180",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)"
+ },
+ {
+  "va": "75d189",
+  "expect": "3b9cb820250000",
+  "replace": "3b9cb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp ebx, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75d267",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)"
+ },
+ {
+  "va": "75d272",
+  "expect": "3b8cb820250000",
+  "replace": "3b8cb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp ecx, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75d2d3",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d080)"
+ },
+ {
+  "va": "75d2e8",
+  "expect": "89acb820250000",
+  "replace": "89acb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], ebp"
+ },
+ {
+  "va": "75d3b6",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d380)"
+ },
+ {
+  "va": "75d3c6",
+  "expect": "8bacb020250000",
+  "replace": "8bacb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov ebp, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75d402",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d380)"
+ },
+ {
+  "va": "75d40c",
+  "expect": "8b9cb820250000",
+  "replace": "8b9cb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov ebx, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "75d42a",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d380)"
+ },
+ {
+  "va": "75d433",
+  "expect": "899cb020250000",
+  "replace": "899cb050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + esi*4 + 0x2520], ebx"
+ },
+ {
+  "va": "75d452",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 75d380)"
+ },
+ {
+  "va": "75d45f",
+  "expect": "89acb820250000",
+  "replace": "89acb850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [eax + edi*4 + 0x2520], ebp"
+ },
+ {
+  "va": "75d4aa",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)"
+ },
+ {
+  "va": "75d4ef",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)"
+ },
+ {
+  "va": "75d4f8",
+  "expect": "8b84b020250000",
+  "replace": "8b84b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75d533",
+  "expect": "81fed0020000",
+  "replace": "81fea0050000",
+  "why": "slot bound 720 -> 1440: cmp esi, 0x2d0 (fn 75d480)"
+ },
+ {
+  "va": "75d546",
+  "expect": "8b94b020250000",
+  "replace": "8b94b050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov edx, dword ptr [eax + esi*4 + 0x2520]"
+ },
+ {
+  "va": "75e2ca",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 75ddf0)"
+ },
+ {
+  "va": "7d42ab",
+  "expect": "8b84b820250000",
+  "replace": "8b84b850990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [eax + edi*4 + 0x2520]"
+ },
+ {
+  "va": "7eb420",
+  "expect": "3dcf020000",
+  "replace": "3d9f050000",
+  "why": "slot bound 719 -> 1439: cmp eax, 0x2cf (fn 7eac20)"
+ },
+ {
+  "va": "7eb427",
+  "expect": "8b8f5c300000",
+  "replace": "8b8fccaf0000",
+  "why": "last spellbook slot: mov ecx, dword ptr [edi + 0x305c]"
+ },
+ {
+  "va": "7eb445",
+  "expect": "8b948f20250000",
+  "replace": "8b948f50990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov edx, dword ptr [edi + ecx*4 + 0x2520]"
+ },
+ {
+  "va": "7eb477",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7eac20)"
+ },
+ {
+  "va": "7ed6c3",
+  "expect": "8984be20250000",
+  "replace": "8984be50990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + edi*4 + 0x2520], eax"
+ },
+ {
+  "va": "7ed6cc",
+  "expect": "c784be2025000000000000",
+  "replace": "c784be5099000000000000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + edi*4 + 0x2520], 0"
+ },
+ {
+  "va": "7ed6d8",
+  "expect": "81ffd0020000",
+  "replace": "81ffa0050000",
+  "why": "slot bound 720 -> 1440: cmp edi, 0x2d0 (fn 7ebb70)"
+ },
+ {
+  "va": "7ed6e2",
+  "expect": "b9d0020000",
+  "replace": "b9a0050000",
+  "why": "slot bound 720 -> 1440: mov ecx, 0x2d0 (fn 7ebb70)"
+ },
+ {
+  "va": "7ed6e9",
+  "expect": "8dbe20250000",
+  "replace": "8dbe50990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: lea edi, [esi + 0x2520]"
+ },
+ {
+  "va": "7ed6f3",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)"
+ },
+ {
+  "va": "7ed6fb",
+  "expect": "83bc862025000000",
+  "replace": "83bc865099000000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: cmp dword ptr [esi + eax*4 + 0x2520], 0"
+ },
+ {
+  "va": "7ed705",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)"
+ },
+ {
+  "va": "7ed70d",
+  "expect": "c7848620250000ffffffff",
+  "replace": "c7848650990000ffffffff",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + eax*4 + 0x2520], 0xffffffff"
+ },
+ {
+  "va": "7ed719",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ebb70)"
+ },
+ {
+  "va": "7edae7",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7edaa0)"
+ },
+ {
+  "va": "7edaff",
+  "expect": "898c8720250000",
+  "replace": "898c8750990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [edi + eax*4 + 0x2520], ecx"
+ },
+ {
+  "va": "7edb0a",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7edaa0)"
+ },
+ {
+  "va": "7ee79f",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ee560)"
+ },
+ {
+  "va": "7ee7a7",
+  "expect": "c7848620250000ffffffff",
+  "replace": "c7848650990000ffffffff",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov dword ptr [esi + eax*4 + 0x2520], 0xffffffff"
+ },
+ {
+  "va": "7ee7b3",
+  "expect": "3dd0020000",
+  "replace": "3da0050000",
+  "why": "slot bound 720 -> 1440: cmp eax, 0x2d0 (fn 7ee560)"
+ },
+ {
+  "va": "7ee8c4",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 7ee880)"
+ },
+ {
+  "va": "7ee8cd",
+  "expect": "8b849f20250000",
+  "replace": "8b849f50990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: mov eax, dword ptr [edi + ebx*4 + 0x2520]"
+ },
+ {
+  "va": "7ee8e5",
+  "expect": "81fbd0020000",
+  "replace": "81fba0050000",
+  "why": "slot bound 720 -> 1440: cmp ebx, 0x2d0 (fn 7ee880)"
+ },
+ {
+  "va": "7ef4ad",
+  "expect": "8db020250000",
+  "replace": "8db050990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: lea esi, [eax + 0x2520]"
+ },
+ {
+  "va": "7ef4b3",
+  "expect": "8d8b20250000",
+  "replace": "8d8b50990000",
+  "why": "spellbook base 0x2520 -> tail 0x9950: lea ecx, [ebx + 0x2520]"
+ },
+ {
+  "va": "7ef4bd",
+  "expect": "81fad0020000",
+  "replace": "81faa0050000",
+  "why": "slot bound 720 -> 1440: cmp edx, 0x2d0 (fn 7ef330)"
+ },
+ {
+  "va": "7ef4cf",
+  "expect": "81fad0020000",
+  "replace": "81faa0050000",
+  "why": "slot bound 720 -> 1440: cmp edx, 0x2d0 (fn 7ef330)"
+ },
+ {
+  "va": "7bec13",
+  "expect": "6850990000",
+  "replace": "68d0af0000",
+  "why": "allocate 0xafd0 bytes (was 0x9950) so the 1440-slot spellbook fits after the object"
+ },
+ {
+  "va": "7cd1e5",
+  "expect": "6850990000",
+  "replace": "68d0af0000",
+  "why": "allocate 0xafd0 bytes (was 0x9950) so the 1440-slot spellbook fits after the object"
+ },
+ {
+  "va": "460876",
+  "expect": "6888340000",
+  "replace": "68d0af0000",
+  "why": "allocate 0xafd0 bytes (was 0x3488) so the 1440-slot spellbook fits after the object"
+ },
+ {
+  "va": "75d599",
+  "expect": "83f8587e158bcec7862c02000058000000e891edffff5ec20400",
+  "replace": "3db20000007e13b8b2000000eb0c909090909090909090909090",
+  "why": "page limit: left page max 0x58 (90 pages) -> 0xB2 (180 pages)"
+ }
+]
