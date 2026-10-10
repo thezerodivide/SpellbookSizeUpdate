@@ -9,6 +9,10 @@ It needs a change on **both** sides, and the two must match exactly.
 > **Server owner? Start with the [Server Owner Rollout Guide (GUIDE.md)](GUIDE.md).** It covers what to change, the
 > cutover steps, the rollback, and what was tested, in the order you would do it.
 
+> **Built with AI assistance.** This was developed with Claude (Anthropic's AI) under the direction of the repository
+> owner, who tested every change in a live client. Nothing here asks you to trust that: the patch list, the checks the
+> patcher makes, and the test results (section 6) are all there to read and verify.
+
 > **This repository contains no EverQuest client files.** To get a 1440-slot client you patch your own `eqgame.exe`
 > with the patcher in `tools/patcher/` (section 1). For server owners there are one-click backup, install and
 > rollback scripts in `rollout/`.
